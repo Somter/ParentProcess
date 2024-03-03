@@ -12,7 +12,7 @@ ParentProcessDlg::~ParentProcessDlg(void)
 	
 }
 
-void ParentProcessDlg::Cls_OnClose(HWND hwnd)
+void ParentProcessDlg::Cls_OnClose(HWND hwnd) 
 {
 	EndDialog(hwnd, 0);
 }
